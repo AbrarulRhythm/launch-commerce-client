@@ -13,7 +13,7 @@
 
     /* =========== Colors =========== */
     --color-body: #eaeced;
-    --color-theme-primary: #caeb66;
+    --color-theme-primary: #ee5c12;
     --color-secondary: #03373d;
 
     /* Green */
@@ -57,5 +57,5 @@ p {
 }
 
 .container {
-    @apply mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px];
+    @apply mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px] px-3;
 }
