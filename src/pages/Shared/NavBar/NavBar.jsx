@@ -6,7 +6,7 @@ import { BsCart2 } from 'react-icons/bs';
 
 const NavBar = () => {
     return (
-        <div className="bg-white py-6">
+        <div className="top-nav bg-white py-5 md:py-6">
             <div className="container">
                 <div className="flex flex-wrap -mx-3 justify-between items-center">
                     {/* Search Box */}
@@ -52,9 +52,12 @@ const NavBar = () => {
                         </div>
 
                         {/* Mobile Search Box */}
-                        <div className="hidden justify-end">
-                            <div className="flex items-center justify-center w-10 h-10 border border-dark-03 rounded-full4">
-                                <IoSearchOutline className="text-xl" />
+                        <div className="flex md:hidden justify-end">
+                            <div className="flex items-center space-x-3 font-medium text-dark-08 hover:text-theme-primary duration-150">
+                                <span>Search...</span>
+                                <div>
+                                    <IoSearchOutline className="text-xl" />
+                                </div>
                             </div>
                         </div>
                     </div>

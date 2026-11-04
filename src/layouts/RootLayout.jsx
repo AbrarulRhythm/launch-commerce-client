@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router';
 import Footer from '../pages/Shared/Footer/Footer';
 import NavBar from '../pages/Shared/NavBar/NavBar';
+import CategoryNav from '../pages/Shared/NavBar/CategoryNav';
 
 const RootLayout = () => {
     return (
@@ -8,6 +9,9 @@ const RootLayout = () => {
             {/* Header */}
             <header>
                 <NavBar></NavBar>
+
+                {/* Category Nav */}
+                <CategoryNav></CategoryNav>
             </header>
             {/* Header End */}
 
