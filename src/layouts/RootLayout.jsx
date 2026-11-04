@@ -1,17 +1,13 @@
 import { Outlet } from 'react-router';
 import Footer from '../pages/Shared/Footer/Footer';
-import NavBar from '../pages/Shared/NavBar/NavBar';
-import CategoryNav from '../pages/Shared/NavBar/CategoryNav';
+import Header from '../pages/Shared/Header/Header';
 
 const RootLayout = () => {
     return (
         <div className="wrap">
             {/* Header */}
             <header>
-                <NavBar></NavBar>
-
-                {/* Category Nav */}
-                <CategoryNav></CategoryNav>
+                <Header></Header>
             </header>
             {/* Header End */}
 
