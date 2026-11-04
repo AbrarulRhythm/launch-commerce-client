@@ -14,7 +14,7 @@ const NavBar = () => {
                         <div className="relative">
                             <input
                                 type="text"
-                                className="py-3.5 px-6 bg-white border border-dark-03 rounded-xl focus:outline-0 focus:border-theme-primary w-full"
+                                className="py-3 px-6 bg-white border border-dark-03 rounded-xl focus:outline-0 focus:border-theme-primary w-full"
                                 placeholder="Search..."
                             />
                             <div className="absolute top-[50%] right-4 translate-[-50%]">
