@@ -59,3 +59,14 @@ p {
 .container {
     @apply mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px] px-3;
 }
+
+/* ========== * Top Categories Swiper slider * ========== */
+.swiper-button-next,
+.swiper-button-prev {
+    @apply w-10 h-10 rounded-full bg-theme-primary hover:bg-dark-08 duration-100;
+}
+
+.swiper-button-next .swiper-navigation-icon,
+.swiper-button-prev .swiper-navigation-icon {
+    @apply w-2.5 text-white;
+}
