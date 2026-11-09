@@ -20,7 +20,7 @@ const ProductCard01 = () => {
                 <button
                     className="w-7 h-7 bg-white border border-dark-03 flex justify-center items-center rounded-full 
                 absolute bottom-2 right-2 cursor-pointer 
-                text-red-400 hover:bg-red-500 hover:border-red-500 hover:text-white duration-200 active:scale-90"
+                text-red-400 hover:bg-red-500 hover:border-red-500 hover:text-white duration-200 active:scale-80"
                 >
                     <IoMdHeartEmpty />
                 </button>
