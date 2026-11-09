@@ -96,7 +96,7 @@ const TopCategories = () => {
                 </Swiper>
 
                 {/* Custom Navigation Button */}
-                <div className="flex justify-end items-center gap-4 mt-4">
+                <div className="flex justify-end items-center gap-2.5 mt-4">
                     <button className="custom-prev flex items-center justify-center w-10 h-10 rounded-full bg-theme-primary text-white disabled:opacity-40 disabled:cursor-not-allowed hover:bg-dark-08 duration-200 cursor-pointer">
                         <FiChevronLeft size={24} />
                     </button>
