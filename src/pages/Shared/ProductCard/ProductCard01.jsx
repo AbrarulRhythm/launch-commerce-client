@@ -1,6 +1,7 @@
 import { Link } from 'react-router';
 import AppImage from '../../../components/AppImage/AppImage';
 import { BsBag } from 'react-icons/bs';
+import { IoMdHeartEmpty } from 'react-icons/io';
 
 const ProductCard01 = () => {
     return (
@@ -15,6 +16,14 @@ const ProductCard01 = () => {
                     <span className="w-fit block py-0.5 px-1.5 rounded-sm text-[10px] text-white bg-amber-400">New Arrival</span>
                     {/* <span className="w-fit block py-0.5 px-1.5 rounded-sm text-[10px] text-white bg-green-600">Save 10%</span> */}
                 </div>
+
+                <button
+                    className="w-7 h-7 bg-white border border-dark-03 flex justify-center items-center rounded-full 
+                absolute bottom-2 right-2 cursor-pointer 
+                text-red-400 hover:bg-red-500 hover:border-red-500 hover:text-white duration-200 active:scale-90"
+                >
+                    <IoMdHeartEmpty />
+                </button>
             </div>
 
             {/* Product Desc */}
