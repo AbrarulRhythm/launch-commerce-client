@@ -40,6 +40,11 @@ const TopCategories = () => {
                         },
                         // * When window width is >= 1024px (Desktop)
                         1024: {
+                            slidesPerView: 6,
+                            spaceBetween: 20,
+                        },
+                        // * When window width is >= 1280px (Desktop)
+                        1440: {
                             slidesPerView: 7,
                             spaceBetween: 20,
                         },
