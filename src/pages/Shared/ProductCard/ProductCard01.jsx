@@ -7,7 +7,7 @@ const ProductCard01 = () => {
     return (
         <div className="bg-white border border-dark-03 rounded-xl p-2.5 ">
             {/* Product Image */}
-            <div className="border border-dark-03 overflow-hidden rounded-xl relative mb-3.5">
+            <div className="border-[0.4px] border-dark-03 overflow-hidden rounded-xl relative mb-3.5">
                 <Link to="/">
                     <AppImage className="w-full"></AppImage>
                 </Link>
@@ -18,9 +18,9 @@ const ProductCard01 = () => {
                 </div>
 
                 <button
-                    className="w-7 h-7 bg-white border border-dark-03 flex justify-center items-center rounded-full 
+                    className="w-7.5 h-7.5 bg-white border border-dark-03 flex justify-center items-center rounded-full 
                 absolute bottom-2 right-2 cursor-pointer 
-                text-red-400 hover:bg-red-500 hover:border-red-500 hover:text-white duration-200 active:scale-80"
+                text-dark-08 hover:bg-red-500 hover:border-red-500 hover:text-white duration-200 active:scale-80"
                 >
                     <IoMdHeartEmpty />
                 </button>
