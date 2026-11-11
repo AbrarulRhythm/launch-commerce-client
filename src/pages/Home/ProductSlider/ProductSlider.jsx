@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import { Navigation, Autoplay } from 'swiper/modules';
 
-const ProductSlider = ({ title, topRanking }) => {
+const ProductSlider = ({ title, navigationEl, autoplayDelay }) => {
     return (
         <div className="container">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
@@ -29,10 +29,10 @@ const ProductSlider = ({ title, topRanking }) => {
 
                     {/* Custom Navigation Button */}
                     <div className="flex items-center space-x-2.5">
-                        <button className={`${topRanking}-custom-prev navigation-button`}>
+                        <button className={`${navigationEl}-custom-prev navigation-button`}>
                             <GoChevronLeft className="text-lg" />
                         </button>
-                        <button className={`${topRanking}-custom-next navigation-button`}>
+                        <button className={`${navigationEl}-custom-next navigation-button`}>
                             <GoChevronRight className="text-lg" />
                         </button>
                     </div>
@@ -43,11 +43,11 @@ const ProductSlider = ({ title, topRanking }) => {
                 slidesPerView={7}
                 spaceBetween={20}
                 navigation={{
-                    prevEl: `.${topRanking}-custom-prev`,
-                    nextEl: `.${topRanking}-custom-next`,
+                    prevEl: `.${navigationEl}-custom-prev`,
+                    nextEl: `.${navigationEl}-custom-next`,
                 }}
                 speed={1000}
-                autoplay={{ delay: 4000 }}
+                autoplay={{ delay: autoplayDelay }}
                 modules={[Navigation, Autoplay]}
                 className="mySwiper"
                 breakpoints={{

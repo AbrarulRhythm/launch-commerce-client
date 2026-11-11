@@ -23,7 +23,11 @@ const Home = () => {
             </section>
             {/* Product Slider [Top Ranking] */}
             <section className="product-slider pt-10 lg:pt-15">
-                <ProductSlider title="Top Ranking" navigationEl="topRanking"></ProductSlider>
+                <ProductSlider title="Top Ranking" navigationEl="topRanking" autoplayDelay="2000"></ProductSlider>
+            </section>
+            {/* Product Slider [Home Decore] */}
+            <section className="product-slider pt-10 lg:pt-15">
+                <ProductSlider title="Home Decore" navigationEl="homeDecore" autoplayDelay="4000"></ProductSlider>
             </section>
         </>
     );
