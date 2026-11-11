@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 import AppImage from '../../../components/AppImage/AppImage';
-import { BsBag } from 'react-icons/bs';
 import { IoMdHeartEmpty } from 'react-icons/io';
+import { FiShoppingBag } from 'react-icons/fi';
 
 const ProductCard01 = () => {
     return (
@@ -29,18 +29,18 @@ const ProductCard01 = () => {
             {/* Product Desc */}
             <div>
                 <h4 className="mb-1.5">
-                    <Link to="/" className="text-dark-08 hover:text-theme-primary duration-200">
+                    <Link to="/" className="text-dark-08 hover:text-theme-primary duration-200 font-medium">
                         Rose Fairy Light
                     </Link>
                 </h4>
 
                 <div className="flex items-center gap-2.5 mb-4">
                     <span className="text-dark-07 line-through text-[13px]">1400 TK</span>
-                    <span className="text-theme-primary font-semibold">790 TK</span>
+                    <span className="text-dark-08 font-medium">TK 790</span>
                 </div>
 
-                <button className="w-full px-3 py-2 flex items-center justify-center gap-2.5 bg-dark-02 text-dark-08 rounded-lg text-sm cursor-pointer hover:bg-dark-08 hover:text-white active:scale-95 duration-200">
-                    <BsBag className="text-[15px]" /> Add to Cart
+                <button className="w-full px-3 py-2 font-medium flex items-center justify-center gap-2.5 bg-dark-02 text-dark-08 rounded-lg text-sm md:text-[15px] cursor-pointer hover:bg-dark-08 hover:text-white active:scale-95 duration-200">
+                    <FiShoppingBag className="text-lg" /> Add to Cart
                 </button>
             </div>
         </div>
