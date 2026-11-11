@@ -1,14 +1,13 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 import AppImage from '../../../components/AppImage/AppImage';
+import { GoChevronLeft, GoChevronRight } from 'react-icons/go';
+import { Link } from 'react-router';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
-
 import { Navigation, Autoplay } from 'swiper/modules';
-import { Link } from 'react-router';
-import { GoChevronLeft, GoChevronRight } from 'react-icons/go';
 
 const TopCategories = () => {
     return (
@@ -20,8 +19,8 @@ const TopCategories = () => {
                     slidesPerView={7}
                     spaceBetween={20}
                     navigation={{
-                        prevEl: '.custom-prev',
-                        nextEl: '.custom-next',
+                        prevEl: '.top-categories-custom-prev',
+                        nextEl: '.top-categories-custom-next',
                     }}
                     speed={1000}
                     autoplay={{ delay: 4000 }}
@@ -102,10 +101,10 @@ const TopCategories = () => {
 
                 {/* Custom Navigation Button */}
                 <div className="flex justify-end items-center gap-2.5 mt-4">
-                    <button className="custom-prev flex items-center justify-center w-10 h-10 rounded-full border border-dark-03 bg-white text-dark-08 disabled:opacity-40 disabled:cursor-not-allowed hover:border-dark-08 duration-200 cursor-pointer">
+                    <button className="top-categories-custom-prev navigation-button">
                         <GoChevronLeft className="text-lg" />
                     </button>
-                    <button className="custom-next flex items-center justify-center w-10 h-10 rounded-full border border-dark-03 bg-white text-dark-08 disabled:opacity-40 disabled:cursor-not-allowed hover:border-dark-08 duration-200 cursor-pointer">
+                    <button className="top-categories-custom-next navigation-button">
                         <GoChevronRight className="text-lg" />
                     </button>
                 </div>

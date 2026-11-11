@@ -56,6 +56,11 @@ p {
     @apply leading-[1.8];
 }
 
+.navigation-button {
+    @apply flex items-center justify-center w-10 h-10 rounded-full border border-dark-03 bg-white text-dark-08 
+        disabled:opacity-40 disabled:cursor-not-allowed hover:border-dark-08 duration-200 cursor-pointer;
+}
+
 .container {
     @apply mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px] px-3;
 }
