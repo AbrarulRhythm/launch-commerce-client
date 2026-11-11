@@ -8,7 +8,7 @@ import 'swiper/css/autoplay';
 
 import { Navigation, Autoplay } from 'swiper/modules';
 import { Link } from 'react-router';
-import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+import { GoChevronLeft, GoChevronRight } from 'react-icons/go';
 
 const TopCategories = () => {
     return (
@@ -102,11 +102,11 @@ const TopCategories = () => {
 
                 {/* Custom Navigation Button */}
                 <div className="flex justify-end items-center gap-2.5 mt-4">
-                    <button className="custom-prev flex items-center justify-center w-10 h-10 rounded-full bg-theme-primary text-white disabled:opacity-40 disabled:cursor-not-allowed hover:bg-dark-08 duration-200 cursor-pointer">
-                        <FiChevronLeft size={24} />
+                    <button className="custom-prev flex items-center justify-center w-10 h-10 rounded-full border border-dark-03 bg-white text-dark-08 disabled:opacity-40 disabled:cursor-not-allowed hover:border-dark-08 duration-200 cursor-pointer">
+                        <GoChevronLeft className="text-lg" />
                     </button>
-                    <button className="custom-next flex items-center justify-center w-10 h-10 rounded-full bg-theme-primary text-white disabled:opacity-40 disabled:cursor-not-allowed hover:bg-dark-08 duration-200 cursor-pointer">
-                        <FiChevronRight size={24} />
+                    <button className="custom-next flex items-center justify-center w-10 h-10 rounded-full border border-dark-03 bg-white text-dark-08 disabled:opacity-40 disabled:cursor-not-allowed hover:border-dark-08 duration-200 cursor-pointer">
+                        <GoChevronRight className="text-lg" />
                     </button>
                 </div>
             </div>
