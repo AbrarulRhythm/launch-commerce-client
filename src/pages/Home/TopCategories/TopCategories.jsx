@@ -23,7 +23,7 @@ const TopCategories = () => {
                         nextEl: '.top-categories-custom-next',
                     }}
                     speed={1000}
-                    autoplay={{ delay: 4000 }}
+                    autoplay={{ delay: 3000 }}
                     modules={[Navigation, Autoplay]}
                     className="mySwiper"
                     breakpoints={{
