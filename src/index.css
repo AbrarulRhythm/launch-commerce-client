@@ -56,6 +56,10 @@ p {
     @apply leading-[1.8];
 }
 
+.fi {
+    @apply leading-0;
+}
+
 .navigation-button {
     @apply flex items-center justify-center w-10 h-10 rounded-full border border-dark-03 bg-white text-dark-08 
         disabled:opacity-40 disabled:cursor-not-allowed hover:border-dark-08 duration-200 cursor-pointer;
@@ -74,4 +78,10 @@ p {
 .swiper-button-next .swiper-navigation-icon,
 .swiper-button-prev .swiper-navigation-icon {
     @apply w-2.5 text-white;
+}
+
+/* [ Footer ] */
+/*================================================== */
+.footer-link a {
+    @apply inline-block py-2 text-dark-03 hover:text-theme-primary duration-300;
 }

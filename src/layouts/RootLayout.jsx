@@ -18,7 +18,7 @@ const RootLayout = () => {
             {/* ========================= Mina End ========================= */}
 
             {/* Footer */}
-            <footer>
+            <footer className="bg-dark-09 mt-10 lg:mt-15">
                 <Footer></Footer>
             </footer>
             {/* Footer End */}
