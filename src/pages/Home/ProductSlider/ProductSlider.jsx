@@ -29,10 +29,10 @@ const ProductSlider = ({ title, navigationEl, autoplayDelay }) => {
 
                     {/* Custom Navigation Button */}
                     <div className="flex items-center space-x-2.5">
-                        <button className={`${navigationEl}-custom-prev navigation-button`}>
+                        <button className={`${navigationEl}-custom-prev navigation-button`} aria-label="Previous category">
                             <GoChevronLeft className="text-lg" />
                         </button>
-                        <button className={`${navigationEl}-custom-next navigation-button`}>
+                        <button className={`${navigationEl}-custom-next navigation-button`} aria-label="Next category">
                             <GoChevronRight className="text-lg" />
                         </button>
                     </div>

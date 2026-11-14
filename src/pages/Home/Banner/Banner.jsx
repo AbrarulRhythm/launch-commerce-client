@@ -26,19 +26,19 @@ const Banner = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <Link to="/">
+                    <Link to="/" aria-label="View Banner 01 details">
                         <img src={banner01} className="w-full hidden md:block" alt="" />
                         <img src={banner01Sm} className="w-full block md:hidden" alt="" />
                     </Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Link to="/">
+                    <Link to="/" aria-label="View Banner 02 details">
                         <img src={banner02} className="w-full hidden md:block" alt="" />
                         <img src={banner02Sm} className="w-full block md:hidden" alt="" />
                     </Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Link to="/">
+                    <Link to="/" aria-label="View Banner 03 details">
                         <img src={banner03} className="w-full hidden md:block" alt="" />
                         <img src={banner03Sm} className="w-full block md:hidden" alt="" />
                     </Link>

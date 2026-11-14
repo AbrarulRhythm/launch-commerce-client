@@ -13,7 +13,7 @@ const ProductCard01 = () => {
                 </Link>
 
                 <div className="flex justify-end items-end gap-2 absolute top-2 right-2">
-                    <span className="w-fit block py-0.5 px-1.5 rounded-sm text-[10px] text-white bg-amber-400">New Arrival</span>
+                    <span className="w-fit block py-0.5 px-1.5 rounded-sm text-[10px] text-white bg-[#f48721]">New Arrival</span>
                     {/* <span className="w-fit block py-0.5 px-1.5 rounded-sm text-[10px] text-white bg-green-600">Save 10%</span> */}
                 </div>
 
@@ -21,6 +21,7 @@ const ProductCard01 = () => {
                     className="w-7.5 h-7.5 bg-white border border-dark-03 flex justify-center items-center rounded-full 
                 absolute bottom-2 right-2 cursor-pointer 
                 text-dark-08 hover:bg-red-500 hover:border-red-500 hover:text-white duration-200 active:scale-80"
+                    aria-label="Add to favorites"
                 >
                     <IoMdHeartEmpty />
                 </button>

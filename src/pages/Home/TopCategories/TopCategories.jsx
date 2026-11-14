@@ -101,10 +101,10 @@ const TopCategories = () => {
 
                 {/* Custom Navigation Button */}
                 <div className="flex justify-end items-center gap-2.5 mt-4">
-                    <button className="top-categories-custom-prev navigation-button">
+                    <button className="top-categories-custom-prev navigation-button" aria-label="Previous category">
                         <GoChevronLeft className="text-lg" />
                     </button>
-                    <button className="top-categories-custom-next navigation-button">
+                    <button className="top-categories-custom-next navigation-button" aria-label="Next category">
                         <GoChevronRight className="text-lg" />
                     </button>
                 </div>

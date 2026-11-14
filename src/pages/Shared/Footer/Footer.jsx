@@ -96,6 +96,7 @@ const Footer = () => {
                                     <button
                                         type="submit"
                                         className="bg-theme-primary text-white h-14 flex justify-center items-center rounded-r-md px-6 text-xl"
+                                        aria-label="Newsletter update"
                                     >
                                         <i className="fi fi-rs-paper-plane"></i>
                                     </button>
